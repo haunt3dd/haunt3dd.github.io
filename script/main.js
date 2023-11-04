@@ -47,7 +47,7 @@ const animationTimeline = () => {
 
   const ideaPicRightTrans = {
     opacity: 0,
-    y: -20,
+    y: -25,
     x: 75,
     rotationX: 5,
     skewX: "15deg"
@@ -228,21 +228,21 @@ const animationTimeline = () => {
       },
       "-=2"
     )
-    .from(
-      ".lydia-dp2",
-      0.5,
-      {
-        scale: 3.5,
-        opacity: 0,
-        x: 45,
-        y: -25,
-        rotationZ: -45,
-        ease: Expo.easeOut
-      },
-      "-=2"
-    )
-    // .from(".lydia-dp2", 0.7, ideaPicRightTrans)
-    // .to(".lydia-dp2", 0.7, ideaTextTransLeave, "+=1.5")
+    // .from(
+    //   ".lydia-dp2",
+    //   0.5,
+    //   {
+    //     scale: 3.5,
+    //     opacity: 0,
+    //     x: 45,
+    //     y: -25,
+    //     rotationZ: -45,
+    //     ease: Expo.easeOut
+    //   },
+    //   "-=2"
+    // )
+    .from(".lydia-dp2", 0.7, ideaPicRightTrans)
+    .to(".lydia-dp2", 0.7, ideaTextTransLeave, "+=1.5")
     .from(".hat", 0.5, {
       x: -100,
       y: 350,
