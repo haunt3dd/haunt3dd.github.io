@@ -230,7 +230,7 @@ const animationTimeline = () => {
     )
     .from(
       ".lydia-dp2",
-      0.5,
+      0.7,
       {
         scale: 3.5,
         opacity: 0,
