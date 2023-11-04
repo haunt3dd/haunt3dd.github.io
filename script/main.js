@@ -220,6 +220,19 @@ const animationTimeline = () => {
       },
       "-=2"
     )
+    .from(
+      ".lydia-dp2",
+      0.5,
+      {
+        scale: 3.5,
+        opacity: 0,
+        x: 45,
+        y: -25,
+        rotationZ: -45,
+        ease: Expo.easeOut
+      },
+      "-=2"
+    )
     .from(".hat", 0.5, {
       x: -100,
       y: 350,
