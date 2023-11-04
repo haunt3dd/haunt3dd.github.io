@@ -241,8 +241,8 @@ const animationTimeline = () => {
       },
       "-=2"
     )
-    .from(".lydia-dp2", 0.7, ideaPicRightTrans)
-    .to(".lydia-dp2", 0.7, ideaTextTransLeave, "+=1.5")
+    // .from(".lydia-dp2", 0.7, ideaPicRightTrans)
+    // .to(".lydia-dp2", 0.7, ideaTextTransLeave, "+=1.5")
     .from(".hat", 0.5, {
       x: -100,
       y: 350,

@@ -22,6 +22,11 @@ body {
   z-index: 1;
 }
 
+.container div.six-2 {
+  top: 10vh;
+  z-index: 1;
+}
+
 .container div.seven,
 .container div.eight {
   width: 100vw;
@@ -117,6 +122,15 @@ body {
 }
 
 .six img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+.six-2 {
+  position: relative;
+}
+
+.six-2 img {
   display: inline-block;
   max-width: 100%;
   height: auto;
