@@ -237,7 +237,7 @@ const animationTimeline = () => {
         x: 75,
         y: -25,
         rotationZ: -45,
-        ease: Expo.easeOut
+        ease: Elastic.easeOut.config(1, 0.5)
       },
       "-=2"
     )
