@@ -45,6 +45,14 @@ const animationTimeline = () => {
     skewX: "15deg"
   };
 
+  const ideaPicRightTrans = {
+    opacity: 0,
+    y: -20,
+    x: 75,
+    rotationX: 5,
+    skewX: "15deg"
+  };
+
   const ideaTextTransLeave = {
     opacity: 0,
     y: 20,
@@ -233,6 +241,8 @@ const animationTimeline = () => {
       },
       "-=2"
     )
+    .from(".lydia-dp2", 0.7, ideaPicRightTrans)
+    .to(".lydia-dp2", 0.7, ideaTextTransLeave, "+=1.5")
     .from(".hat", 0.5, {
       x: -100,
       y: 350,
