@@ -230,14 +230,13 @@ const animationTimeline = () => {
     )
     .from(
       ".lydia-dp2",
-      0.7,
+      0.5,
       {
         scale: 3.5,
         opacity: 0,
         x: 75,
         y: -25,
-        rotationZ: -45,
-        ease: Elastic.easeOut.config(1, 0.5)
+        rotationZ: -45
       },
       "-=2"
     )
