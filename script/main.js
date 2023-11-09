@@ -6,7 +6,7 @@ const fetchData = () => {
       dataArr = Object.keys(data);
       dataArr.map(customData => {
         if (data[customData] !== "") {
-          if (customData === "imagePath") {
+          if (customData === "imagePath" ||customData === "imagePath2" || customData === "imagePath3" || customData === "imagePath4"|| customData === "imagePath5") {
             document
               .querySelector(`[data-node-name*="${customData}"]`)
               .setAttribute("src", data[customData]);
@@ -244,7 +244,59 @@ const animationTimeline = () => {
         rotationZ: -45
       },
       "-=2"
-    )
+    ).to(".jj2-dp", 0.5, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1"
+    })
+    .from(
+      ".jj3-dp",
+      0.5,
+      {
+        scale: 3.5,
+        opacity: 0,
+        x: 75,
+        y: -35,
+        rotationZ: -45
+      },
+      "-=2"
+    ).to(".jj3-dp", 0.5, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1"
+    })
+    .from(
+      ".jj4-dp",
+      0.5,
+      {
+        scale: 3.5,
+        opacity: 0,
+        x: 75,
+        y: -25,
+        rotationZ: -45
+      },
+      "-=2"
+    ).to(".jj4-dp", 0.5, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1"
+    })
+    .from(
+      ".jj5-dp",
+      0.5,
+      {
+        scale: 3.5,
+        opacity: 0,
+        x: 75,
+        y: -25,
+        rotationZ: -45
+      },
+      "-=2"
+    ).to(".jj5-dp", 0.5, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1"
+    })
     .from(".hat", 0.5, {
       x: -100,
       y: 350,
