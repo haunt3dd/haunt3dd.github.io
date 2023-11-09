@@ -228,10 +228,11 @@ const animationTimeline = () => {
       },
       "-=2"
     )
-    .to(".jj1-dp", 0.5, {
+    .to(".six", 0.5, {
       opacity: 0,
       y: 30,
-      zIndex: "-1"
+      zIndex: "-1",
+      display:"none"
     })
     .from(
       ".jj2-dp",
