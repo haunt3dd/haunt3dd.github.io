@@ -217,7 +217,7 @@ const animationTimeline = () => {
       0.2
     )
     .from(
-      ".lydia-dp",
+      ".jj1-dp",
       0.5,
       {
         scale: 3.5,
@@ -228,8 +228,13 @@ const animationTimeline = () => {
       },
       "-=2"
     )
+    .to(".jj1-dp", 0.5, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1"
+    })
     .from(
-      ".lydia-dp2",
+      ".jj2-dp",
       0.5,
       {
         scale: 3.5,
@@ -240,12 +245,6 @@ const animationTimeline = () => {
       },
       "-=2"
     )
-    // .from(".lydia-dp2", 0.7, ideaPicRightTrans)
-    .to(".six-2", 0.5, {
-      opacity: 0,
-      y: 30,
-      zIndex: "-1"
-    })
     .from(".hat", 0.5, {
       x: -100,
       y: 350,
