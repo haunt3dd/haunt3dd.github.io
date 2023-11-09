@@ -231,8 +231,7 @@ const animationTimeline = () => {
     .to(".six", 0.5, {
       opacity: 0,
       y: 30,
-      zIndex: "-1",
-      display:"none"
+      zIndex: "-1"
     })
     .from(
       ".jj2-dp",
