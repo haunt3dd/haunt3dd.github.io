@@ -228,11 +228,6 @@ const animationTimeline = () => {
       },
       "-=2"
     )
-    .to(".jj1-dp", 0.5, {
-      opacity: 0,
-      y: 30,
-      zIndex: "-1"
-    })
     .from(
       ".jj2-dp",
       0.5,
@@ -244,11 +239,7 @@ const animationTimeline = () => {
         rotationZ: -45
       },
       "-=2"
-    ).to(".jj2-dp", 0.5, {
-      opacity: 0,
-      y: 30,
-      zIndex: "-1"
-    })
+    )
     .from(
       ".jj3-dp",
       0.5,
@@ -260,11 +251,7 @@ const animationTimeline = () => {
         rotationZ: -45
       },
       "-=2"
-    ).to(".jj3-dp", 0.5, {
-      opacity: 0,
-      y: 30,
-      zIndex: "-1"
-    })
+    )
     .from(
       ".jj4-dp",
       0.5,
@@ -276,11 +263,7 @@ const animationTimeline = () => {
         rotationZ: -45
       },
       "-=2"
-    ).to(".jj4-dp", 0.5, {
-      opacity: 0,
-      y: 30,
-      zIndex: "-1"
-    })
+    )
     .from(
       ".jj5-dp",
       0.5,
@@ -292,11 +275,7 @@ const animationTimeline = () => {
         rotationZ: -45
       },
       "-=2"
-    ).to(".jj5-dp", 0.5, {
-      opacity: 0,
-      y: 30,
-      zIndex: "-1"
-    })
+    )
     .from(".hat", 0.5, {
       x: -100,
       y: 350,
