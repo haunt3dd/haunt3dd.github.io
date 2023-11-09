@@ -228,7 +228,7 @@ const animationTimeline = () => {
       },
       "-=2"
     )
-    .to(".six", 0.5, {
+    .to(".jj1-dp", 0.5, {
       opacity: 0,
       y: 30,
       zIndex: "-1"

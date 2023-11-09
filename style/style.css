@@ -26,18 +26,6 @@ body {
   top: 10vh;
   z-index: 1;
 }
-.container div.six-3 {
-  top: 10vh;
-  z-index: 1;
-}
-.container div.six-4 {
-  top: 10vh;
-  z-index: 1;
-}
-.container div.six-5 {
-  top: 10vh;
-  z-index: 1;
-}
 
 .container div.seven,
 .container div.eight {
@@ -143,33 +131,6 @@ body {
 }
 
 .six-2 img {
-  display: inline-block;
-  max-width: 100%;
-  height: auto;
-}
-.six-3 {
-  position: relative;
-}
-
-.six-3 img {
-  display: inline-block;
-  max-width: 100%;
-  height: auto;
-}
-.six-4 {
-  position: relative;
-}
-
-.six-4 img {
-  display: inline-block;
-  max-width: 100%;
-  height: auto;
-}
-.six-5 {
-  position: relative;
-}
-
-.six-5 img {
   display: inline-block;
   max-width: 100%;
   height: auto;
