@@ -228,7 +228,7 @@ const animationTimeline = () => {
       },
       "-=2"
     )
-    .from(
+    .to(
       ".jj2-dp",
       0.5,
       {
@@ -240,7 +240,7 @@ const animationTimeline = () => {
       },
       "-=2"
     )
-    .from(
+    .to(
       ".jj3-dp",
       0.5,
       {
@@ -252,7 +252,7 @@ const animationTimeline = () => {
       },
       "-=2"
     )
-    .from(
+    .to(
       ".jj4-dp",
       0.5,
       {
@@ -264,7 +264,7 @@ const animationTimeline = () => {
       },
       "-=2"
     )
-    .from(
+    .to(
       ".jj5-dp",
       0.5,
       {
